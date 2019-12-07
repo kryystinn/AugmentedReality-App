@@ -19,4 +19,9 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("JasperScene");
     }
+
+    public void MainScene()
+    {
+        SceneManager.LoadScene("MainScene");
+    }
 }
